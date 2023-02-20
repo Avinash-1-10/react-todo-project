@@ -116,8 +116,8 @@ li button + button:hover {
   }
 
   .box {
-    max-width: 80%;
-    padding: 20px;
+    max-width: 100%;
+    padding: 10px;
     margin-top: 15px;
   }
 }
@@ -129,7 +129,7 @@ li button + button:hover {
   }
 
   .box {
-    max-width: 90%;
+    max-width: 98%;
     padding: 5px;
     margin-top: 10px;
   }
