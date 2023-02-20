@@ -1,0 +1,151 @@
+
+.app{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  animation: move-vector 10s ease-in-out infinite;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1500' height='660' preserveAspectRatio='none' viewBox='0 0 1500 660'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1024%26quot%3b)' fill='none'%3e%3crect width='1500' height='660' x='0' y='0' fill='url(%23SvgjsLinearGradient1025)'%3e%3c/rect%3e%3cpath d='M790.6412203648243-22.368318081724137L694.8997672684263-51.63941778072827 698.8638442681191 106.60831171337088z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M277.43 454.44 a197.99 197.99 0 1 0 395.98 0 a197.99 197.99 0 1 0 -395.98 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M85.312%2c225.62C120.077%2c224.697%2c154.873%2c210.652%2c171.304%2c180.001C187.024%2c150.677%2c176.346%2c116.209%2c159.271%2c87.653C142.751%2c60.024%2c117.402%2c38.741%2c85.312%2c36.189C48.038%2c33.225%2c7.756%2c42.438%2c-12.277%2c74.011C-33.49%2c107.444%2c-30.404%2c151.495%2c-8.973%2c184.789C10.895%2c215.655%2c48.617%2c226.595%2c85.312%2c225.62' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1025.4698731754218 162.38568274217258L1162.1024761108677 47.73731601224817 1047.4541093809432-88.89528692319769 910.8215064454973 25.75307980672673z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1442.9585377478707 632.0848025747086L1310.4092215795965 504.0834158426526 1314.9571510158146 764.6341187429828z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1138.796157995595 449.63575641107576L1268.0462474951091 456.4094665738796 1213.5817679895579 259.14747724320614z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M846.5753139849455 319.71717945948507L735.8582625876425 250.53348730754067 687.4412500583774 451.2009104794673z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M710.8800563750792 99.84443536549514L587.2948944592539-0.2328554937598568 487.2176035999989 123.35230642206548 610.8027655158243 223.42959728132047z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1210.577040570151 414.0958084867352L1277.1219890118477 240.74029099065808 1103.7664715157707 174.19534254896126 1037.221523074074 347.5508600450384z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M669.8508859060562 472.075799548087L553.4395245041558 501.1004117946785 655.1821235749933 661.2051477742332z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1024'%3e%3crect width='1500' height='660' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='14%25' y1='131.82%25' x2='86%25' y2='-31.82%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1025'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(49%2c 18%2c 193%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.box {
+  box-sizing: border-box;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  height: 70%; 
+  overflow-y: scroll; 
+  margin-top: 15px;
+}
+
+.box::-webkit-scrollbar {
+  display: none;
+}
+
+form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px 0 0 5px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color:#1d8020; 
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #11ac16;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+li button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#edit {
+  margin-right: 5px;
+  background-color: #2196f3;
+  margin-left: auto;
+}
+
+#edit:hover{
+  background-color: rgb(96, 96, 239);
+}
+
+li button:hover {
+  background-color: #f5100c;
+}
+
+li button + button:hover {
+  background-color: #a00606;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+    padding-top: 30px;
+  }
+
+  .box {
+    max-width: 80%;
+    padding: 20px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  input[type="text"] {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .box {
+    max-width: 90%;
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  button[type="submit"] {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  li {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  li button {
+    font-size: 14px;
+    padding: 3px 8px;
+  }
+}
