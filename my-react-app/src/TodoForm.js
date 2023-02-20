@@ -11,7 +11,7 @@ function TodoForm({ onSubmit, todo, setTodo, editTodo, setEditTodo }) {
       alert("Todo cannot be empty!");
       return;
     }
-    if (todo.trim().length > 15) {
+    if (todo.trim().length > 20) {
       alert("Todo cannot be more than 15 characters!");
       return;
     }
