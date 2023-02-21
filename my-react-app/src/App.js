@@ -13,7 +13,21 @@ function App() {
       alert("Todo already exists!");
       return;
     }
-    setTodos([ newTodo,...todos]);
+
+    if (editTodo) {
+      const updatedTodos = todos.map((t) => {
+        if (t.id === editTodo.id) {
+          return { ...t, toDo: newTodo.toDo };
+        }
+        return t;
+      });
+      setTodos(updatedTodos);
+      setEditTodo(null);
+    } else {
+      setTodos([newTodo, ...todos]);
+    }
+
+    setTodo("");
   };
 
   const handleDelete = (id) => {
